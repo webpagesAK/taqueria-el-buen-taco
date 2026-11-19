@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#151b14">
+  <meta name="description" content="Taquería El Buen Taco: tacos al pastor, suadero, gringas y más. Consulta nuestro menú y haz tu pedido por WhatsApp.">
+  <title>El Buen Taco | Taquería</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav wrap" aria-label="Navegación principal">
+      <a class="brand" href="#inicio"><span class="brand-mark">✺</span><span>EL BUEN <strong>TACO</strong><small>TAQUERÍA · CDMX</small></span></a>
+      <div class="nav-links"><a href="#menu">Menú</a><a href="#nosotros">Nosotros</a><a href="#ubicacion">Visítanos</a></div>
+      <a class="btn btn-small btn-outline" href="#menu">Ver menú <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main>
+    <section id="inicio" class="hero">
+      <div class="wrap hero-layout">
+        <div class="hero-copy"><p class="eyebrow">TACOS HECHOS CON CORAZÓN · DESDE 2026</p><h1>Un buen taco<br>lo cambia <em>todo.</em></h1><p class="hero-sub">Tortilla calientita, carne recién hecha y esa salsa que siempre quieres repetir. El antojo empieza aquí.</p><div class="hero-actions"><a href="#menu" class="btn btn-lime">Explorar menú <span aria-hidden="true">↗</span></a><a href="#ubicacion" class="text-link">¿Dónde estamos? ↗</a></div><div class="hero-note">🌶️ Salsa de la casa &nbsp; · &nbsp; 🌽 Tortillas recién hechas</div></div>
+        <div class="hero-art" aria-label="Ilustración decorativa de tacos"><div class="hero-circle"></div><div class="spark spark-one">✳</div><div class="spark spark-two">✦</div><div class="taco-illustration"><div class="taco-shell"></div><div class="taco-filling">🥬 🌶️ 🥩</div></div><div class="sticker">¡AQUÍ<br>SE COME<br>RICO! <span>★</span></div></div>
+      </div>
+      <div class="ticker"><div>PASTOR ✳ SUADERO ✳ BISTEC ✳ GRINGAS ✳ AGUAS FRESCAS ✳ MUCHO SABOR ✳ PASTOR ✳ SUADERO ✳ BISTEC ✳</div></div>
+    </section>
+    <section class="menu-section wrap" id="menu"><div class="section-top"><div><p class="eyebrow dark">NUESTROS FAVORITOS</p><h2>El menú <span>que se antoja.</span></h2></div><p>Precios de ejemplo en pesos mexicanos (MXN). Ajusta productos y precios antes de publicar tu carta definitiva.</p></div>
+    <div class="filter-row" role="group" aria-label="Filtrar platillos"><button class="filter active" data-filter="todos" aria-pressed="true">Todo el menú</button><button class="filter" data-filter="tacos" aria-pressed="false">Tacos</button><button class="filter" data-filter="especiales" aria-pressed="false">Especiales</button><button class="filter" data-filter="bebidas" aria-pressed="false">Bebidas</button></div>
+    <div class="menu-grid" id="menu-grid"></div><div class="menu-disclaimer">* Precios ilustrativos de lanzamiento. No constituyen una cotización ni precios confirmados de un establecimiento.</div></section>
+    <section class="about" id="nosotros"><div class="wrap about-layout"><div><p class="eyebrow">NUESTRA ESENCIA</p><h2>Tacos sin complicaciones. <em>Con mucho sabor.</em></h2></div><div><p>En El Buen Taco creemos que los mejores momentos se comparten alrededor de una buena mesa. Nuestra propuesta es sencilla: ingredientes frescos, recetas con tradición y tacos que siempre se antojan.</p><a href="#ubicacion" class="btn btn-lime">Ven por tus tacos ↗</a></div></div></section>
+    <section class="visit wrap" id="ubicacion"><div class="visit-copy"><p class="eyebrow dark">TE ESPERAMOS</p><h2>Nos vemos<br>en la <span>taquería.</span></h2><p>Personaliza estos datos cuando tengas la dirección, el horario y el número del negocio.</p><div class="visit-info"><div><b>📍 Dirección</b><span>Agrega aquí tu calle, número, colonia y ciudad</span></div><div><b>🕒 Horario</b><span>Ejemplo: lunes a domingo · 13:00 a 23:00</span></div><div><b>📱 Pedidos</b><span>Configura el WhatsApp del negocio para recibir pedidos</span></div></div><a class="btn btn-dark" id="whatsapp-link" href="#ubicacion">Pedir por WhatsApp ↗</a><small class="setup-hint">Botón de WhatsApp pendiente de configurar.</small></div><div class="visit-card"><div class="visit-emoji">🌮</div><p>DE AQUÍ<br>PA'L ANTOJO</p><span>HECHO CON 🌶 Y CORAZÓN</span></div></section>
+  </main><footer><div class="wrap footer-inner"><div class="brand">✺ EL BUEN TACO</div><span>© <span id="year"></span> · Hecho con mucho sabor.</span><a href="#inicio">Volver arriba ↑</a></div></footer>
+</body></html>
